@@ -11,4 +11,4 @@ const fs = require('fs');
 //     console.log("invalid input");
 // }
 
-fs.writeFileSync('apple.txt','this is apple');
+fs.writeFileSync('apple.txt','this is apple')
