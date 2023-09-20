@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 const getPath = path.join(__dirname,'Public');
 
-app.get('',(req,resp)=>{
+app.get('/',(req,resp)=>{
     resp.sendFile(`${getPath}/01_about.htm`)   // used to remove extension(.htm) from url 
 })
 
